@@ -4,6 +4,7 @@ import reactHooks from "eslint-plugin-react-hooks";
 import reactRefresh from "eslint-plugin-react-refresh";
 import tseslint from "typescript-eslint";
 import { defineConfig, globalIgnores } from "eslint/config";
+import importPlugin from "eslint-plugin-import";
 
 export default defineConfig([
   globalIgnores(["dist"]),
@@ -18,6 +19,39 @@ export default defineConfig([
     languageOptions: {
       ecmaVersion: 2020,
       globals: globals.browser,
+    },
+    plugins: {
+      import: importPlugin,
+    },
+    rules: {
+      // "sort-imports": [
+      //   "error",
+      //   {
+      //     ignoreCase: true,
+      //     ignoreDeclarationSort: false,
+      //     ignoreMemberSort: false,
+      //     memberSyntaxSortOrder: ["none", "all", "multiple", "single"],
+      //     allowSeparatedGroups: false,
+      //   },
+      // ],
+      "sort-imports": "off",
+      "import/order": [
+        "error",
+        {
+          groups: [
+            "builtin",
+            "external",
+            "internal",
+            "parent",
+            "sibling",
+            "index",
+          ],
+          alphabetize: {
+            order: "asc",
+            caseInsensitive: true,
+          },
+        },
+      ],
     },
   },
 ]);
