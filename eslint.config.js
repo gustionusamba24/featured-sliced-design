@@ -34,6 +34,7 @@ export default defineConfig([
       //     allowSeparatedGroups: false,
       //   },
       // ],
+      "@typescript-eslint/no-explicit-any": "off",
       "sort-imports": "off",
       "import/order": [
         "error",
