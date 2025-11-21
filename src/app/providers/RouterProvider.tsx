@@ -1,6 +1,6 @@
-import type { ReactNode } from "react";
+import * as React from "react";
 import { BrowserRouter } from "react-router";
 
-export const RouterProvider = ({ children }: { children: ReactNode }) => {
+export const RouterProvider = ({ children }: { children: React.ReactNode }) => {
   return <BrowserRouter>{children}</BrowserRouter>;
 };
