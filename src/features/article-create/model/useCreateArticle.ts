@@ -5,7 +5,7 @@ import { toast } from "sonner";
 import type { AppDispatch } from "@/app/stores/mainStore";
 import { addArticle } from "@/entities/article/model";
 
-export const useArticleCreate = () => {
+export const useCreateArticle = () => {
   const [title, setTitle] = useState("");
   const [body, setBody] = useState("");
 

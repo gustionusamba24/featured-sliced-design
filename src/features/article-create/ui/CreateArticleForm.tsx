@@ -1,8 +1,8 @@
-import { useArticleCreate } from "@/features/article-create/model";
+import { useCreateArticle } from "@/features/article-create/model";
 import { Button, Input, Textarea } from "@/shared/ui";
 
-export const ArticleCreateForm = () => {
-  const { title, body, setTitle, setBody, onSubmit } = useArticleCreate();
+export const CreateArticleForm = () => {
+  const { title, body, setTitle, setBody, onSubmit } = useCreateArticle();
 
   return (
     <form onSubmit={onSubmit} className={"space-y-4"}>

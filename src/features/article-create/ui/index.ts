@@ -1,3 +1,3 @@
-import { ArticleCreateForm } from "@/features/article-create/ui/ArticleCreateForm";
+import { CreateArticleForm } from "@/features/article-create/ui/CreateArticleForm";
 
-export { ArticleCreateForm };
+export { CreateArticleForm };
