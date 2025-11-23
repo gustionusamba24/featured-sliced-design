@@ -13,5 +13,8 @@ export const useArticleList = () => {
     dispatch(getArticles({ page, searchQuery }));
   }, [dispatch, page, searchQuery]);
 
-  return { articles, isLoading };
+  return {
+    articles,
+    isLoading,
+  };
 };
