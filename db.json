@@ -5,47 +5,5 @@
       "email": "josh@gmail.com",
       "password": "password"
     }
-  ],
-  "articles": [
-    {
-      "id": "b2c3d4e5-f6a7-8901-bc23-de45fa678901",
-      "title": "Understanding Redux State Management",
-      "body": "Redux is a predictable state container for JavaScript applications. It helps you write applications that behave consistently across different environments. Redux centralizes your application's state and logic, making it easier to understand when, where, why, and how the state in your application is being updated. This leads to more maintainable and debuggable code."
-    },
-    {
-      "id": "c3d4e5f6-a7b8-9012-cd34-ef56ab789012",
-      "title": "TypeScript Best Practices",
-      "body": "TypeScript adds static typing to JavaScript, which helps catch errors early in the development process. By defining types for your variables, functions, and objects, you can prevent many common bugs. TypeScript's type system is powerful and flexible, allowing you to express complex relationships in your code. Adopting TypeScript can significantly improve code quality and developer productivity."
-    },
-    {
-      "id": "d4e5f6a7-b8c9-0123-de45-fa67bc890123",
-      "title": "Modern CSS Techniques",
-      "body": "CSS has evolved tremendously over the years with features like Grid, Flexbox, and custom properties. These modern techniques allow developers to create responsive and beautiful layouts with less code. CSS Grid provides a two-dimensional layout system, while Flexbox excels at one-dimensional layouts. Together, they form a powerful toolkit for modern web design."
-    },
-    {
-      "id": "e5f6a7b8-c9d0-1234-ef56-ab78cd901234",
-      "title": "Async Programming in JavaScript",
-      "body": "Asynchronous programming is essential for creating responsive web applications. JavaScript provides several ways to handle async operations, including callbacks, promises, and async/await syntax. Understanding these patterns is crucial for working with APIs, handling user input, and managing application state. Modern JavaScript makes async programming more intuitive and readable than ever before."
-    },
-    {
-      "id": "f6a7b8c9-d0e1-2345-fa67-bc89de012345",
-      "title": "Testing React Components",
-      "body": "Testing is a critical part of building reliable React applications. Tools like Jest and React Testing Library make it easy to write comprehensive tests for your components. Good tests verify that components render correctly, handle user interactions properly, and integrate well with the rest of your application. A solid testing strategy gives you confidence when making changes to your codebase."
-    },
-    {
-      "id": "a7b8c9d0-e1f2-3456-ab78-cd90ef123456",
-      "title": "Web Performance Optimization",
-      "body": "Performance is crucial for user experience and SEO. Optimizing your web application involves reducing bundle sizes, lazy loading components, and minimizing render times. Tools like Lighthouse can help identify performance bottlenecks. Techniques such as code splitting, image optimization, and caching strategies can dramatically improve load times and overall application responsiveness."
-    },
-    {
-      "id": "b8c9d0e1-f2a3-4567-bc89-de01fa234567",
-      "title": "REST API Design Principles",
-      "body": "Designing a good REST API requires careful consideration of resource naming, HTTP methods, and status codes. A well-designed API is intuitive, consistent, and easy to use. Following REST conventions helps other developers understand and integrate with your API quickly. Good documentation and versioning strategies are also essential for maintaining APIs over time."
-    },
-    {
-      "id": "c9d0e1f2-a3b4-5678-cd90-ef12ab345678",
-      "title": "Git Workflow Strategies",
-      "body": "Effective use of Git is essential for modern software development. Different workflows like Git Flow, GitHub Flow, and trunk-based development suit different team sizes and project types. Understanding branching strategies, merge vs rebase, and how to write good commit messages can greatly improve collaboration. A solid Git workflow helps teams work together efficiently and maintain code quality."
-    }
   ]
 }
